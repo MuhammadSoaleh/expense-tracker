@@ -179,7 +179,7 @@ const Register = () => {
 
               <Button
                   type="submit"
-                  className=" text-center btn-dark mt-3 btnStyle"
+                  className=" text-center btn-warning mt-3 btnStyle"
                   onClick={!loading ? handleSubmit : null}
                   disabled={loading}
                 >
